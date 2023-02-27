@@ -1,0 +1,93 @@
+body {
+    width: 80%;
+    margin: 20px auto;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.column {
+    width: 100%;
+    display: inline-flex;
+}
+
+.leftbar {
+    width: 25%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.leftbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.leftbar a:hover {
+    text-decoration: underline;
+}
+
+.leftbar .link {
+    padding: 20px 0;
+}
+
+.gambar {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.kontak {
+    margin-top: 100px;
+}
+
+.rightbar {
+    width: 75%;
+}
+
+.rightbar-bg {
+    width: 75%;
+    background: url('https://i.pinimg.com/originals/12/47/a5/1247a52ac88de28a17c47d47c2b5f44d.jpg') no-repeat;
+}
+
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.section-bg {
+    padding: 100px 15px 15px 15px;
+    margin-bottom: 15px;
+}
+
+.cols {
+    width: 100%;
+    display: inline-flex;
+}
+
+.col-left {
+    width: 25%;
+}
+
+.col-right {
+    width: 75%;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text {
+    margin-top: 30px;
+    text-align: inherit;
+}
+
+.font-size-50 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.font-size-30 {
+    font-size: 30px;
+}
